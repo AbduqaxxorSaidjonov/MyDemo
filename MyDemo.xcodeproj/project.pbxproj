@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		762B5F2727A38CD200C2D24D /* MyDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B5F2627A38CD200C2D24D /* MyDemoApp.swift */; };
-		762B5F2927A38CD200C2D24D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B5F2827A38CD200C2D24D /* ContentView.swift */; };
 		762B5F2B27A38CD300C2D24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762B5F2A27A38CD300C2D24D /* Assets.xcassets */; };
 		762B5F2E27A38CD300C2D24D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762B5F2D27A38CD300C2D24D /* Preview Assets.xcassets */; };
 		762B5F3027A38CD300C2D24D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B5F2F27A38CD300C2D24D /* Persistence.swift */; };
@@ -16,6 +15,14 @@
 		762B5F3D27A38CD300C2D24D /* MyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B5F3C27A38CD300C2D24D /* MyDemoTests.swift */; };
 		762B5F4727A38CD300C2D24D /* MyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B5F4627A38CD300C2D24D /* MyDemoUITests.swift */; };
 		762B5F4927A38CD300C2D24D /* MyDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B5F4827A38CD300C2D24D /* MyDemoUITestsLaunchTests.swift */; };
+		762B5F5627A38CF100C2D24D /* Homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B5F5527A38CF100C2D24D /* Homescreen.swift */; };
+		763A8DF227C4AF0B00C6A697 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A8DF127C4AF0B00C6A697 /* SignInScreen.swift */; };
+		763A8DF427C4B64C00C6A697 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A8DF327C4B64C00C6A697 /* SignUpScreen.swift */; };
+		76A461B627CD25400002B175 /* itemPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A461B527CD25400002B175 /* itemPost.swift */; };
+		76A461B827CDFEA80002B175 /* itemStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A461B727CDFEA80002B175 /* itemStory.swift */; };
+		76A461BC27CE06C70002B175 /* AddStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A461BB27CE06C70002B175 /* AddStory.swift */; };
+		76AF167627C88E4800F2276A /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF167527C88E4800F2276A /* StarterScreen.swift */; };
+		76EBCD2727BA44C100022E41 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EBCD2627BA44C100022E41 /* protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 /* Begin PBXFileReference section */
 		762B5F2327A38CD200C2D24D /* MyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		762B5F2627A38CD200C2D24D /* MyDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDemoApp.swift; sourceTree = "<group>"; };
-		762B5F2827A38CD200C2D24D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		762B5F2A27A38CD300C2D24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762B5F2D27A38CD300C2D24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		762B5F2F27A38CD300C2D24D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +54,14 @@
 		762B5F4227A38CD300C2D24D /* MyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		762B5F4627A38CD300C2D24D /* MyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDemoUITests.swift; sourceTree = "<group>"; };
 		762B5F4827A38CD300C2D24D /* MyDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		762B5F5527A38CF100C2D24D /* Homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homescreen.swift; sourceTree = "<group>"; };
+		763A8DF127C4AF0B00C6A697 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		763A8DF327C4B64C00C6A697 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		76A461B527CD25400002B175 /* itemPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemPost.swift; sourceTree = "<group>"; };
+		76A461B727CDFEA80002B175 /* itemStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemStory.swift; sourceTree = "<group>"; };
+		76A461BB27CE06C70002B175 /* AddStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStory.swift; sourceTree = "<group>"; };
+		76AF167527C88E4800F2276A /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
+		76EBCD2627BA44C100022E41 /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +112,12 @@
 		762B5F2527A38CD200C2D24D /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				76A461B427CD25300002B175 /* cells */,
+				76EBCD2527BA44AB00022E41 /* protocols */,
+				76D7F2E927B8F27C005FA2DA /* Screens */,
+				762B5F5727A38D0900C2D24D /* apputils */,
 				762B5F2627A38CD200C2D24D /* MyDemoApp.swift */,
-				762B5F2827A38CD200C2D24D /* ContentView.swift */,
-				762B5F2A27A38CD300C2D24D /* Assets.xcassets */,
-				762B5F2F27A38CD300C2D24D /* Persistence.swift */,
+				762B5F5527A38CF100C2D24D /* Homescreen.swift */,
 				762B5F3127A38CD300C2D24D /* MyDemo.xcdatamodeld */,
 				762B5F2C27A38CD300C2D24D /* Preview Content */,
 			);
@@ -131,6 +147,43 @@
 				762B5F4827A38CD300C2D24D /* MyDemoUITestsLaunchTests.swift */,
 			);
 			path = MyDemoUITests;
+			sourceTree = "<group>";
+		};
+		762B5F5727A38D0900C2D24D /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				762B5F2A27A38CD300C2D24D /* Assets.xcassets */,
+				762B5F2F27A38CD300C2D24D /* Persistence.swift */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		76A461B427CD25300002B175 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				76A461B527CD25400002B175 /* itemPost.swift */,
+				76A461B727CDFEA80002B175 /* itemStory.swift */,
+				76A461BB27CE06C70002B175 /* AddStory.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		76D7F2E927B8F27C005FA2DA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				763A8DF127C4AF0B00C6A697 /* SignInScreen.swift */,
+				763A8DF327C4B64C00C6A697 /* SignUpScreen.swift */,
+				76AF167527C88E4800F2276A /* StarterScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		76EBCD2527BA44AB00022E41 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				76EBCD2627BA44C100022E41 /* protocol.swift */,
+			);
+			path = protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762B5F5627A38CF100C2D24D /* Homescreen.swift in Sources */,
+				76A461BC27CE06C70002B175 /* AddStory.swift in Sources */,
+				76A461B627CD25400002B175 /* itemPost.swift in Sources */,
+				76AF167627C88E4800F2276A /* StarterScreen.swift in Sources */,
+				76EBCD2727BA44C100022E41 /* protocol.swift in Sources */,
 				762B5F3027A38CD300C2D24D /* Persistence.swift in Sources */,
-				762B5F2927A38CD200C2D24D /* ContentView.swift in Sources */,
+				763A8DF427C4B64C00C6A697 /* SignUpScreen.swift in Sources */,
+				76A461B827CDFEA80002B175 /* itemStory.swift in Sources */,
+				763A8DF227C4AF0B00C6A697 /* SignInScreen.swift in Sources */,
 				762B5F3327A38CD300C2D24D /* MyDemo.xcdatamodeld in Sources */,
 				762B5F2727A38CD200C2D24D /* MyDemoApp.swift in Sources */,
 			);
